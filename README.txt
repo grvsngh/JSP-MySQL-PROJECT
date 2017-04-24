@@ -1,0 +1,11 @@
+@author GAURAV SINGH -IT
+-index.jsp : its the home page and provide user authentication through login page.
+-login.jsp : its for getting the values from the user
+-loginprocess.jsp : a jsp file that processes the request and calls the methods.
+-LoginBean.java : a bean class that have properties and setter and getter methods.
+-Provider.java : an interface that contains constants like DRIVER_CLASS, CONNECTION_URL, USERNAME and PASSWORD required for database connection.
+-ConnectionProvider.java : a class that is responsible to return the object of Connection. It uses the Singleton and factory method design pattern.
+-LoginDao.java : a DAO class that verifies the emailId and password from the database.
+-upload.jsp : its for uploading the files to your local server.
+-view.jsp : its to show all the files on local server sothat user can download ,delete and rename the files as per his choice.
+-download.jsp : its used to download the file on request of user from the local server. 
